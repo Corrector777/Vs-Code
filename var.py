@@ -1,7 +1,5 @@
-i = 5
-print(i)
-i = i + 1
-print(i)
-s = '''Это многострочная строка.
-Это вторая её строчка.'''
-print(s)
+def truncate(text, number_of_char):
+    return f'{text[: number_of_char]}...'
+    
+
+print(truncate('transilvaynia', 4))
