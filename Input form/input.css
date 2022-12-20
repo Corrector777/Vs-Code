@@ -7,7 +7,14 @@
 
 .field {
     box-sizing: border-box;
-    width: 650px;
+    width: 500px;
     border: 1px solid black;
+    max-width: 500px;
    }
+
+.complaint-field {
+    min-height: 50px;
+    max-width: 500px;
+
+}
 
