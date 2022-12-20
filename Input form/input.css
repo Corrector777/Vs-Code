@@ -1,0 +1,13 @@
+.input-line {
+    display:block;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    }
+
+.field {
+    box-sizing: border-box;
+    width: 650px;
+    border: 1px solid black;
+   }
+
