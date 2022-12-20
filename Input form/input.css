@@ -8,13 +8,15 @@
 .field {
     box-sizing: border-box;
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid red;
     max-width: 500px;
    }
 
 .complaint-field {
-    min-height: 50px;
+   width: 500px;
     max-width: 500px;
+    resize: vertical;
+    border: 1px solid red;
 
 }
 
