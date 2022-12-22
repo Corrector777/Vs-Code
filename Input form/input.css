@@ -1,22 +1,47 @@
 .input-line {
     display:block;
-    padding-top: 20px;
-    margin-bottom: 10px;
     font-weight: 700;
     }
+
+.form:nth-child(n) {
+    margin-top: 25px;
+}
+
 
 .field {
     box-sizing: border-box;
     width: 500px;
     border: 1px solid red;
     max-width: 500px;
-   }
+    resize: vertical;
+    }
+
+.field:focus {
+    outline: 1px solid  cyan;
+    outline-offset: -2px;
+
+}
 
 .complaint-field {
    width: 500px;
     max-width: 500px;
     resize: vertical;
     border: 1px solid red;
-
 }
 
+.button {
+    border: none;
+    font-family: inherit;
+    font-weight: 900700;
+    padding: 15px 55px;
+    font-size: 18px;
+    background: red;
+    color: white;
+    cursor: pointer;
+   
+    }
+
+.button:hover {
+    color: black;
+    background-color: aqua;
+    }

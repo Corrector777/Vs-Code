@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="input.css">
 </head>
 <body>
+<form action="http://jsfiddle.net">
  <div class = "form">
-    <span class = "input-line"> Имя пользователя: </span>
-    <input type="text" class="field" placeholder="Пример: Антон...">
+    <label class = "input-line"> Имя пользователя:
+    <input type="text" class="field" placeholder="Пример: Антон..." required>
+    </label>
  </div>  
  <div class = "form">
-    <span class = "input-line"> Введите пароль: </span>
-    <input type="password" class="field" placeholder="Password...">
+    <label class = "input-line"> Введите email: 
+    <input type="email" class="field" placeholder="@gmail.com">
+    </label>
  </div>   
  <div class = "form">
-   <span class = "input-line"> Текст обращения textarea : </span>
-   <textarea type="text" class="complaint-field" placeholder="пример textarea..."></textarea>
-</div>   
-
+   <label class = "input-line"> Текст обращения:
+   <textarea type="text" class="field" placeholder="пример textarea..."></textarea>
+   </label>
+ </div>   
+ <div class = "form"></form>
+   <button class = "button"> Отправить </button>
+   <button type = "reset" class="button"> Reset </button>
+ </div>
+</form> 
 </body>
 </html>
