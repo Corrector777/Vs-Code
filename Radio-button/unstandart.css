@@ -20,6 +20,10 @@
     font-size: 15px;
 }
 
+.radio-button {
+    appearance: none;
+}
+
 
 
 .radio-form:nth-of-type(n+2) {
