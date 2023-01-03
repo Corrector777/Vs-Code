@@ -20,15 +20,14 @@
     font-size: 15px;
 }
 
-.radio-button:checked {
-    outline: 3px solid red;
-    outline-offset: 2px;
-}
-
 .radio-button {
-    appearance: no;
+    -webkit-appearance: none;
+    position: absolute;
 }
 
+.radio-button:checked  ~ .radio-button-text::before{
+    background-image: url("https://netology-code.github.io/resourses/pics/radio-active.svg");
+}
 
 
 .radio-form:nth-of-type(n+2) {
