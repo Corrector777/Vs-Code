@@ -23,11 +23,36 @@
    <label class = "input-line"> Текст обращения:
    <textarea type="text" class="field" placeholder="пример textarea..."></textarea>
    </label>
- </div>   
- <div class = "form"></form>
+ </div>  
+
+ <div class = "form"> 
+ <label class="input-line">
+  Выберите город 
+  <select class="city-select">
+    <optgroup label="Rus" >
+    <option>Tula</option>
+    <option>Lipetsk</option>
+    <option selected>Ufa</option>
+    <option>Lipki</option>
+  </optgroup>
+  </select>
+</label>
+</div>
+
+<div class = "form">
+  выберите пол:
+   <label class = "radio-button"> 
+   <input type="radio" name="gender">мужской</input>
+   </label>
+   <label class = "radio-button">
+   <input type="radio" name="gender">женский</input>
+   </label>
+ </div> 
+  <div class = "form">
    <button class = "button"> Отправить </button>
    <button type = "reset" class="button"> Reset </button>
  </div>
+
 </form> 
 </body>
 </html>

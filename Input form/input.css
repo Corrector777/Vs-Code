@@ -8,7 +8,7 @@
 }
 
 
-.field {
+.field, .city-select {
     box-sizing: border-box;
     width: 500px;
     border: 1px solid red;
@@ -16,18 +16,14 @@
     resize: vertical;
     }
 
-.field:focus {
-    outline: 1px solid  cyan;
+
+
+.field:focus, .city-select:focus {
+    outline: 1px solid  orange;
     outline-offset: -2px;
 
 }
 
-.complaint-field {
-   width: 500px;
-    max-width: 500px;
-    resize: vertical;
-    border: 1px solid red;
-}
 
 .button {
     border: none;
@@ -45,3 +41,13 @@
     color: black;
     background-color: aqua;
     }
+
+  .city-select {
+    background-image: url("https://netology-code.github.io/resourses/pics/select__min_.svg");
+    background-repeat: no-repeat;
+    background-position:right 5px center;
+    height: 30px;
+    appearance: none;
+    
+  }
+
