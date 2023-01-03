@@ -36,3 +36,7 @@
 .radio-form:nth-of-type(n+2) {
     margin-left: 25px;
 }
+.checkbox-style {
+    display: block;
+    margin-top: 40px;
+}
