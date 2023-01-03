@@ -1,6 +1,3 @@
-
-
-
 .radio-button-text::before {
     content: "";
     display: inline-block;
@@ -12,20 +9,26 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin-right: 6px;
+   
 }
 
 .radio-form {
-    font-size: 15px;
+    font-size: 15px;    
 }
 
 .radio-button {
-    -webkit-appearance: none;
-    position: absolute;
+    -webkit-appearance: none; 
+    position: absolute;  
 }
 
-.radio-button:checked  ~ .radio-button-text::before{
+.radio-button:focus + .radio-button-text::before{
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+.radio-button:checked  + .radio-button-text::before{
     background-image: url("https://netology-code.github.io/resourses/pics/radio-active.svg");
 }
 
