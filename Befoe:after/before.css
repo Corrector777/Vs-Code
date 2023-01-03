@@ -1,11 +1,3 @@
 
 
-div::before {
-    content:"<--";
-    background-color: blueviolet;
-}
-
-div::after {
-    content:"-->";
-    background-color: blueviolet;
-}
+bg
