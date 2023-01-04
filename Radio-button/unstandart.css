@@ -11,8 +11,7 @@
     background-position: center;
     background-size: 20px;
     vertical-align: top;
-    margin-right: 6px;
-   
+    margin-right: 6px;  
 }
 
 
@@ -84,3 +83,8 @@
     background-image: url("https://netology-code.github.io/resourses/pics/checkbox2-checked.svg");
 }
 
+.test {
+    background-image: url("https://netology-code.github.io/html-2-homeworks/form-elements/courses/img/presentation.jpg");
+    background-size: 600px 100px;
+    background-repeat: no-repeat;
+}
